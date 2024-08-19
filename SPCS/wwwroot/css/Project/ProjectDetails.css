@@ -1,0 +1,78 @@
+﻿.header {
+    background-image: url('/img/Project/project_details.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-top: 0;
+    padding-top: 0;
+
+}
+.title span {
+    background: #f3f3f3;
+    margin-inline: auto;
+    border-radius: 50%;
+    padding: 30px;
+    border: 1px black dashed;
+}
+
+.title-word {
+    animation: color-animation 4s linear infinite;
+}
+
+.title-word-0 {
+    --color-1: #DF8453;
+    --color-2: #3D8DAE;
+    --color-3: #E4A9A8;
+}
+
+.title-word-1 {
+    --color-1: #DBAD4A;
+    --color-2: #ACCFCB;
+    --color-3: #17494D;
+}
+
+
+@keyframes color-animation {
+    0% {
+        color: var(--color-1)
+    }
+
+    32% {
+        color: var(--color-1)
+    }
+
+    33% {
+        color: var(--color-2)
+    }
+
+    65% {
+        color: var(--color-2)
+    }
+
+    66% {
+        color: var(--color-3)
+    }
+
+    99% {
+        color: var(--color-3)
+    }
+
+    100% {
+        color: var(--color-1)
+    }
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    height: 100vh
+}
+
+.title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+}

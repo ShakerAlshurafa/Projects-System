@@ -1,0 +1,28 @@
+﻿@using SPCS.ViewModel;
+@model List<ProjectVM>
+@section Style {
+    <link href="/css/Project/Index.css" rel="stylesheet" />
+}
+<div class="row">
+    @if (!Model.Any())
+    {
+        <div class="alert alert-warning alert-dismissible">
+            <h5><i class="carousel-control-next-icon fas fa-exclamation-triangle"></i>Alert!</h5>
+            No Project Found
+        </div>
+    }
+    @foreach(var project in @Model)
+    {
+        <div class="col-lg-6 col-sm-12">
+            <div class="project-card mx-auto">
+                <div class="image-container">
+                    <img src="/img/Project/projects_card.jpg" alt="Desk with Laptop" />
+                </div>
+                <div class="overlay">
+                    <h2>@project.Name</h2>
+                    <a asp-controller="Projects" asp-action="GetById" asp-route-id="@project.Id" class="btn">Go To Project &#8594;</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
