@@ -117,12 +117,16 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\img\\Project\\project_details.jpg",
-      "PackagePath": "staticwebassets\\img\\Project\\project_details.jpg"
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\img\\Project\\goals.jpg",
+      "PackagePath": "staticwebassets\\img\\Project\\goals.jpg"
     },
     {
-      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\img\\Project\\project_details2.jpg",
-      "PackagePath": "staticwebassets\\img\\Project\\project_details2.jpg"
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\img\\Project\\overview.jpg",
+      "PackagePath": "staticwebassets\\img\\Project\\overview.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\img\\Project\\project_details.jpg",
+      "PackagePath": "staticwebassets\\img\\Project\\project_details.jpg"
     },
     {
       "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\img\\Project\\projects_card.jpg",

@@ -78,3 +78,4 @@ D:\Web\Full-Stack\Back-end\Projects\MVC\SPCS\SPCS\obj\Debug\net6.0\ref\SPCS.dll
 D:\Web\Full-Stack\Back-end\Projects\MVC\SPCS\SPCS\bin\Debug\net6.0\AutoMapper.dll
 D:\Web\Full-Stack\Back-end\Projects\MVC\SPCS\SPCS\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 D:\Web\Full-Stack\Back-end\Projects\MVC\SPCS\SPCS\bin\Debug\net6.0\libman.json
+D:\Web\Full-Stack\Back-end\Projects\MVC\SPCS\SPCS\obj\Debug\net6.0\SPCS.sourcelink.json

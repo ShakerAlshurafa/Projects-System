@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using SPCS.Models;
+using SPCS.Models.project;
 using SPCS.ViewModel;
 
 namespace SPCS.Mapping

@@ -20,3 +20,132 @@
         </div>
     </div>
 </div>
+
+
+@* members section *@
+<div class="members py-5">
+    @if(Model?.Workgroup?.Team != null)
+    {
+        <h3>Students: </h3>
+        <ul>
+            @foreach(var item in Model.Workgroup.Team.Students)
+            {
+                <li>@item.Name</li>
+            }
+        </ul>
+        <h3>Supervisors: </h3>
+        <ul>
+            @foreach (var item in Model.Workgroup.Team.Supervisors)
+            {
+                <li>@item.Name</li>
+            }
+        </ul>
+    }
+
+	<h3>Customer: <span class="fw-normal">@Model?.Workgroup?.Customer?.Name</span></h3>
+</div>
+
+
+@* overview section *@
+<div class="overview my-5">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="/img/Project/overview.jpg" class="w-100" alt="overview img"/>
+        </div>
+        <div class="col-md-6 d-flex justify-content-center align-items-center">
+            <div class="section-title">
+                <h3 class="mb-4">Project Overview</h3>
+                <p>@Model.Overview</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+@* features section *@
+@if(Model.Features.Count != 0)
+{
+    <div class="features py-5 bg-info">
+        <div class="section-title">
+            <h3 class="mb-5 text-center">Project Features</h3>
+        </div>
+	    <div class="row d-flex justify-content-center align-items-center">
+                @foreach (var item in @Model.Features)
+                {
+                    <div class="col-md-6">
+                        <div class="card w-100 my-3">
+                            <div class="card-body">
+                                <h5 class="card-title">@item.Title</h5>
+                                <p class="card-text">@item.Description</p>
+                            </div>
+                        </div>
+                    </div>
+                }
+        </div>
+    </div>    
+}
+
+@* technology section *@
+@if (Model.Technology.Count != 0)
+{
+    <div class="technology m-0 bg-light py-5">
+        <div class="section-title text-center">
+            <h3 class="mb-5">Project Technology</h3>
+        </div>
+        <div class="row mt-3 text-center">
+            @foreach (var item in @Model.Technology)
+            {
+                <div class="col-md-6 mt-2">
+                    <h5>@item.Title</h5>
+                    <p>@item.Description</p>
+                </div>
+            }
+        </div>
+    </div>    
+}
+
+@* goals section *@
+@if (Model.Goals.Count != 0)
+{
+    <div class="goals m-0 bg-info py-5">
+        <div class="section-title">
+            <h3 class="mb-5 text-center">Project Goals</h3>
+        </div>
+        <div class="row">
+            <div class="col-md-6 d-flex align-items-center">
+                <img src="/img/Project/goals.jpg" class="w-100" alt="overview img" />
+            </div>
+            <div class="col-md-6">
+                @foreach (var item in @Model.Goals)
+                {
+                    <div>
+                        <h5>@item.Title</h5>
+                        <p>@item.Description</p>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+}
+
+@* Audience section *@
+@if (Model.Audience.Count != 0)
+{
+    <div class="audience py-5 my-5">
+        <div class="row">
+            <div class="col-md-6 d-flex justify-content-center align-items-center">
+                <div class="section-title">
+                    <h3 class="mb-4">Project Audience</h3>
+                    @foreach (var item in @Model.Audience)
+                    {
+                        <h5>@item.Title</h5>
+                        <p>@item.Description</p>
+                    }
+                </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-center">
+                <img src="/img/Project/overview.jpg" class="w-100" alt="overview img" />
+            </div>
+        </div>
+    </div>    
+}
