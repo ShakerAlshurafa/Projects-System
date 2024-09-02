@@ -1,12 +1,14 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using SPCS.Configurations;
 using SPCS.Models;
 using SPCS.Models.project;
 using SPCS.Models.user;
+using System.Reflection.Emit;
 
 namespace SPCS.Data
 {
-    public class ApplicationDbContext : IdentityDbContext
+    public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public DbSet<Project> Projects { get; set; }
         public DbSet<ProjectFeatures> ProjectFeatures { get; set; }
@@ -22,6 +24,9 @@ namespace SPCS.Data
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
+            //new ProjectEntityTypeConfiguration().Configure(builder.Entity<Project>());
+            builder.ApplyConfigurationsFromAssembly(typeof(ProjectEntityTypeConfiguration).Assembly);
+
             base.OnModelCreating(builder);
         }
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
