@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SPCS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8f94b0c96818efbb3513a5dfc33de0180f6289c0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+afcee4da96874bed495c4d11aec77d698804dc7b")]
 [assembly: System.Reflection.AssemblyProductAttribute("SPCS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SPCS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

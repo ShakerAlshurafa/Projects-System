@@ -10,6 +10,12 @@ namespace SPCS.ViewModel
         public string Overview { get; set; } = null!;
         public string Status { get; set; } = null!;
 
+        //// Try to get data direct from user table so we can do without Studetn, Customer, Supervisor tables
+        ///  Not complete yet 
+        ///  
+        //public string Role { get; set; } = null!;   
+        //public ICollection<ApplicationUser>? ProjectStudnet { get; set; } 
+
         public Workgroup? Workgroup { get; set; }
         public ICollection<ProjectFeatures> Features { get; set; } = new List<ProjectFeatures>();
         public ICollection<ProjectTechnology> Technology { get; set; } = new List<ProjectTechnology>();

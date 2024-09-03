@@ -1,4 +1,5 @@
-﻿using SPCS.Models.user;
+﻿using Microsoft.AspNetCore.Authorization;
+using SPCS.Models.user;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SPCS.Models.project
@@ -17,6 +18,13 @@ namespace SPCS.Models.project
 
         public Workgroup? Workgroup { get; set; }
 
+        //// Try to get data direct from user table so we can do without Studetn, Customer, Supervisor tables
+        ///  Not complete yet 
+        ///  
+        //public ICollection<ApplicationUser>? ProjectStudnet { get; set; }
+
+
+        public ICollection<ProjectUser> ProjectUsers { get; set; } = new List<ProjectUser>();
 
         public ICollection<ProjectFeatures> Features { get; set; } = new List<ProjectFeatures>();
         public ICollection<ProjectTechnology> Technology { get; set; } = new List<ProjectTechnology>();

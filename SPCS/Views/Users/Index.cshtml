@@ -36,7 +36,10 @@ Users
                 <td>@item.Email</td>
                 <td>@item.Address</td>
                 <td>@item.PhoneNumber</td>
-                <td>@string.Join(", ", item.Roles)</td>
+                @if(item?.Roles != null)
+                {
+                    <td>@string.Join(", ", item.Roles)</td>
+                }
             </tr>
         }
     </tbody>

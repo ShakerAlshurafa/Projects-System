@@ -1,9 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc.Rendering;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System.ComponentModel.DataAnnotations;
 
 namespace SPCS.ViewModel
 {
-	public class ApplicationUserCreateVM
+    [Authorize(Roles = "Admin")]
+    public class ApplicationUserCreateVM
 	{
 		public string UserName { get; set; }
 		public string Email { get; set; }

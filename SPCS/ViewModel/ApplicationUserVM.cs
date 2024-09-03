@@ -1,7 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc.Rendering;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace SPCS.ViewModel
 {
+    [Authorize(Roles = "Admin")]
     public class ApplicationUserVM 
     {
         public string UserName { get; set; }

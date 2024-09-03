@@ -6,19 +6,21 @@
 
 <div class="header">
 	@* <h2 class="title text-center fw-bold mt-4">@Model.Name</h2> *@
-    @{
+    @if(Model?.Name != null)
+    {
         var words = @Model.Name.Split(' ');
-    }
-    <div class="title">
-        <div class="container">
-            <h2>
-                @for (int i = 0; i < words.Length; i++)
-                {
-                    <span class="title-word title-word-@(i % 2)">@words[i]</span>
-                }
-            </h2>
+        <div class="title">
+            <div class="container">
+                <h2>
+                    @for (int i = 0; i < words.Length; i++)
+                    {
+                        <span class="title-word title-word-@(i % 2)">@words[i]</span>
+                    }
+                </h2>
+            </div>
         </div>
-    </div>
+        
+    }
 </div>
 
 

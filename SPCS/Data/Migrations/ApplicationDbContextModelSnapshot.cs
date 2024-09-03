@@ -185,6 +185,9 @@ namespace SPCS.Data.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
+                    b.Property<bool>("IsParticipatedInProject")
+                        .HasColumnType("bit");
+
                     b.Property<bool>("LockoutEnabled")
                         .HasColumnType("bit");
 
@@ -368,6 +371,25 @@ namespace SPCS.Data.Migrations
                     b.HasIndex("ProjectId");
 
                     b.ToTable("ProjectTechnology");
+                });
+
+            modelBuilder.Entity("SPCS.Models.project.ProjectUser", b =>
+                {
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<int>("ProjectId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Role")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("UserId", "ProjectId");
+
+                    b.HasIndex("ProjectId");
+
+                    b.ToTable("ProjectUsers");
                 });
 
             modelBuilder.Entity("SPCS.Models.Team", b =>
@@ -578,6 +600,25 @@ namespace SPCS.Data.Migrations
                     b.Navigation("Project");
                 });
 
+            modelBuilder.Entity("SPCS.Models.project.ProjectUser", b =>
+                {
+                    b.HasOne("SPCS.Models.project.Project", "Project")
+                        .WithMany("ProjectUsers")
+                        .HasForeignKey("ProjectId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("SPCS.Models.ApplicationUser", "ApplicationUser")
+                        .WithMany("ProjectUsers")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("ApplicationUser");
+
+                    b.Navigation("Project");
+                });
+
             modelBuilder.Entity("SPCS.Models.user.Student", b =>
                 {
                     b.HasOne("SPCS.Models.Team", "Team")
@@ -627,6 +668,11 @@ namespace SPCS.Data.Migrations
                     b.Navigation("Team");
                 });
 
+            modelBuilder.Entity("SPCS.Models.ApplicationUser", b =>
+                {
+                    b.Navigation("ProjectUsers");
+                });
+
             modelBuilder.Entity("SPCS.Models.project.Project", b =>
                 {
                     b.Navigation("Audience");
@@ -634,6 +680,8 @@ namespace SPCS.Data.Migrations
                     b.Navigation("Features");
 
                     b.Navigation("Goals");
+
+                    b.Navigation("ProjectUsers");
 
                     b.Navigation("Technology");
 
