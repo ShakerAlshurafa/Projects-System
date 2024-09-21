@@ -29,6 +29,7 @@ namespace SPCS.Data
             builder.ApplyConfigurationsFromAssembly(typeof(Configurations.ProjectConfiguration).Assembly);
             builder.ApplyConfigurationsFromAssembly(typeof(Configurations.ProjectUserConfiguration).Assembly);
 
+            builder.Entity<ApplicationUser>().HasQueryFilter(u => !u.IsDeleted);
             base.OnModelCreating(builder);
         }
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)

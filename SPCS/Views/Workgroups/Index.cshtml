@@ -1,0 +1,31 @@
+﻿@using SPCS.ViewModel;
+@model List<WorkgroupVM>
+@section Title {
+Workgroups
+}
+@section Buttons {
+	<a asp-controller="Workgroups" asp-action="Create" class="text-white text-decoration-none btn btn-primary w-25 ms-auto">Create</a>
+}
+
+<div class="row my-4">
+	<div class="col-sm-12">
+		<table id="example2" class="table table-bordered table-hover dataTable dtr-inline" aria-describedby="example2_info">
+			<thead>
+				<tr>
+					<th class="sorting sorting_asc" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-sort="ascending">Id</th>
+					<th class="sorting sorting_asc" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-sort="ascending">Name</th>
+				</tr>
+			</thead>
+			<tbody>
+				@for (int i = 0; i < Model.Count; i++)
+				{
+					var cssClass = (i % 2 == 0) ? "even" : "odd";
+					<tr class="@cssClass">
+						<td>@Model[i].Id</td>
+						<td>@Model[i].Name</td>
+					</tr>
+				}
+			</tbody>
+		</table>
+	</div>
+</div>

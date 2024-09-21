@@ -32,14 +32,14 @@
         <ul>
             @foreach(var item in Model.Workgroup.Team.Students)
             {
-                <li>@item.Name</li>
+                <li>@item.FirstName  @item.LastName</li>
             }
         </ul>
         <h3>Supervisors: </h3>
         <ul>
             @foreach (var item in Model.Workgroup.Team.Supervisors)
             {
-                <li>@item.Name</li>
+                <li>@item.FirstName @item.LastName</li>
             }
         </ul>
     }

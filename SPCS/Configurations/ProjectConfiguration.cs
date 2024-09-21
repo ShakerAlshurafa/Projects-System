@@ -1,5 +1,4 @@
-﻿using Microsoft.CodeAnalysis;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace SPCS.Configurations
@@ -9,7 +8,7 @@ namespace SPCS.Configurations
         public void Configure(EntityTypeBuilder<Models.project.Project> builder)
         {
             builder.Property(x => x.Name).IsRequired().HasMaxLength(50);
-            
+
         }
     }
 }
