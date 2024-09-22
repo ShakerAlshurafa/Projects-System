@@ -1,0 +1,47 @@
+﻿.project-card {
+    position: relative;
+    width: 300px;
+    height: 280px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: white;
+    padding: 0;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #e0e0e0;
+}
+
+.overlay h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.overlay .btn {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #38b000;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.overlay .btn:hover {
+    background-color: #2c8e00;
+}

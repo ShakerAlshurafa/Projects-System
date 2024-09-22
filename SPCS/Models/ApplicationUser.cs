@@ -7,7 +7,7 @@ namespace SPCS.Models
     public class ApplicationUser : IdentityUser
     {
         [MaxLength(50)]
-        public string Address { get; set; } = null!;
+        public string Address { get; set; } = string.Empty;
         public bool IsDeleted { get; set; } // soft delete
         // To check if user participated in project (insted we can do the check using project id)
         //public bool IsParticipatedInProject { get; set; } = false; 

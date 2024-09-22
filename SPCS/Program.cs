@@ -23,7 +23,9 @@ namespace SPCS
             builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
             builder.Services.AddIdentity<ApplicationUser,IdentityRole>(options => options.SignIn.RequireConfirmedAccount = true)
-                .AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultUI();
+                .AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultUI()
+				.AddDefaultTokenProviders()
+                .AddEntityFrameworkStores<ApplicationDbContext>();
             builder.Services.AddControllersWithViews();
 
             builder.Services.AddAutoMapper(Assembly.GetAssembly(typeof(MappingProfile)));

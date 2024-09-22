@@ -19,6 +19,7 @@ namespace SPCS.Mapping
             CreateMap<Customer, CustomersVM>().ReverseMap();
             CreateMap<Customer, CustomerCreateVM>().ReverseMap();
             CreateMap<Workgroup, WorkgroupVM>().ReverseMap();
+            CreateMap<ApplicationUser, ApplicationUserCreateVM>().ReverseMap();
         }
     }
 }
