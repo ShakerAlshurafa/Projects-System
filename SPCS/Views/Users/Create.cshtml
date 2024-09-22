@@ -7,42 +7,45 @@ Users
 
 
 <div class="card mx-auto w-75 pt-3 pb-4 bg-info">
-	<h3 class="text-center">Create User</h3>
-	<form asp-controller="Users" asp-action="Create">
-		<div class="card-body">
-			<div class="form-group">
-				<label asp-for="UserName"></label>
-				<input type="text" class="form-control" asp-for="UserName" />
-				<span asp-validation-for="UserName" class="text-danger"></span>
-			</div>
-			<div class="form-group">
-				<label asp-for="Email"></label>
-				<input type="email" class="form-control" asp-for="Email" />
-				<span asp-validation-for="Email" class="text-danger"></span>
-			</div>
-			<div class="form-group">
-				<label asp-for="PhoneNumber"></label>
-				<input type="tel" class="form-control" asp-for="PhoneNumber" />
-				<span asp-validation-for="PhoneNumber" class="text-danger"></span>
-			</div>
-			<div class="form-group">
-				<label asp-for="Address"></label>
-				<input type="text" class="form-control" asp-for="Address" />
-				<span asp-validation-for="Address" class="text-danger"></span>
-			</div>
-			<div class="form-group">
-				<label asp-for="PasswordHash"></label>
-				<input type="password" class="form-control" asp-for="PasswordHash" />
-				<span asp-validation-for="Address" class="text-danger"></span>
-			</div>
-			<div class="form-group">
-				<label asp-for="SelectedRoles"></label>
-				<select class="form-control" asp-for="SelectedRoles" asp-items="@Model.Roles"></select>
-				<span asp-validation-for="SelectedRoles" class="text-danger"></span>
-			</div>
-		</div>
-		<div class="card-footer text-center mt-2">
-			<button type="submit" class="btn btn-primary w-25">Add</button>
-		</div>
-	</form>
+    <h3 class="text-center">@(Model != null && !string.IsNullOrEmpty(Model.UserName) ? "Update" : "Create") User</h3>
+
+    <form asp-action="@(Model != null && !string.IsNullOrEmpty(Model.UserName) ? "Update" : "Create")">
+        <div class="mb-3">
+            <label asp-for="UserName" class="form-label"></label>
+            <input asp-for="UserName" class="form-control" />
+            <span asp-validation-for="UserName" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Email" class="form-label"></label>
+            <input asp-for="Email" class="form-control" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Address" class="form-label"></label>
+            <input asp-for="Address" class="form-control" />
+            <span asp-validation-for="Address" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="PhoneNumber" class="form-label"></label>
+            <input asp-for="PhoneNumber" class="form-control" />
+            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="PasswordHash" class="form-label"></label>
+            <input asp-for="PasswordHash" type="password" class="form-control" />
+            <span asp-validation-for="PasswordHash" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label>Roles</label>
+            <select asp-for="SelectedRoles" multiple class="form-select">
+                @if(Model != null && Model.Roles != null)
+                    @foreach (var role in Model.Roles)
+                    {
+                        <option value="@role.Value">@role.Text</option>
+                    }
+            </select>
+            <span asp-validation-for="SelectedRoles" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">@((Model != null && !string.IsNullOrEmpty(Model.UserName)) ? "Update" : "Create") User</button>
+    </form>
 </div>

@@ -1,0 +1,393 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\SPCS.bundle.scp.css",
+      "PackagePath": "staticwebassets\\SPCS.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\Dashboard\\css\\style.css",
+      "PackagePath": "staticwebassets\\Dashboard\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\Dashboard\\js\\main.js",
+      "PackagePath": "staticwebassets\\Dashboard\\js\\main.js"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\Dashboard\\lib\\chart\\chart.min.js",
+      "PackagePath": "staticwebassets\\Dashboard\\lib\\chart\\chart.min.js"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\Dashboard\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\Dashboard\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\Dashboard\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\Dashboard\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\Dashboard\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\Dashboard\\lib\\owlcarousel"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\Dashboard\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\Dashboard\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\Dashboard\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\Dashboard\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\Dashboard\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\Dashboard\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\Dashboard\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\Dashboard\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\Dashboard\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\Dashboard\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\Dashboard\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\Dashboard\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\Dashboard\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\Dashboard\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\Dashboard\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\Dashboard\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\Dashboard\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\Dashboard\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\Dashboard\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\Dashboard\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\Dashboard\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
+      "PackagePath": "staticwebassets\\Dashboard\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\Dashboard\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
+      "PackagePath": "staticwebassets\\Dashboard\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\Dashboard\\lib\\tempusdominus\\js\\moment-timezone.min.js",
+      "PackagePath": "staticwebassets\\Dashboard\\lib\\tempusdominus\\js\\moment-timezone.min.js"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\Dashboard\\lib\\tempusdominus\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\Dashboard\\lib\\tempusdominus\\js\\moment.min.js"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\Dashboard\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
+      "PackagePath": "staticwebassets\\Dashboard\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\Dashboard\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
+      "PackagePath": "staticwebassets\\Dashboard\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\Dashboard\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\Dashboard\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\Dashboard\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\Dashboard\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\css\\Project\\Index.css",
+      "PackagePath": "staticwebassets\\css\\Project\\Index.css"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\css\\Project\\ProjectDetails.css",
+      "PackagePath": "staticwebassets\\css\\Project\\ProjectDetails.css"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\img\\Project\\goals.jpg",
+      "PackagePath": "staticwebassets\\img\\Project\\goals.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\img\\Project\\overview.jpg",
+      "PackagePath": "staticwebassets\\img\\Project\\overview.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\img\\Project\\project_details.jpg",
+      "PackagePath": "staticwebassets\\img\\Project\\project_details.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\img\\Project\\projects_card.jpg",
+      "PackagePath": "staticwebassets\\img\\Project\\projects_card.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\img\\user.jpg",
+      "PackagePath": "staticwebassets\\img\\user.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.SPCS.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.build.SPCS.props",
+      "PackagePath": "build\\SPCS.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.SPCS.props",
+      "PackagePath": "buildMultiTargeting\\SPCS.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildTransitive.SPCS.props",
+      "PackagePath": "buildTransitive\\SPCS.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
