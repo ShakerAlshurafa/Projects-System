@@ -109,6 +109,10 @@
       "PackagePath": "staticwebassets\\css\\Project\\ProjectDetails.css"
     },
     {
+      "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
       "Id": "D:\\Web\\Full-Stack\\Back-end\\Projects\\MVC\\SPCS\\SPCS\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

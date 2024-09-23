@@ -1,0 +1,42 @@
+﻿@using SPCS.ViewModel;
+@model List<CustomersVM>
+@section Title {
+Customers
+}
+@section Buttons {
+	<a asp-controller="Customers" asp-action="Create" class="text-white text-decoration-none btn btn-primary w-25 ms-auto">Create</a>
+}
+
+<div class="row my-4">
+	<div class="col-sm-12">
+		<table id="example2" class="table table-bordered table-hover dataTable dtr-inline" aria-describedby="example2_info">
+			<thead>
+				<tr>
+					<th class="sorting sorting_asc" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-sort="ascending">Id</th>
+					<th class="sorting sorting_asc" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-sort="ascending">Name</th>
+					<th class="sorting sorting_asc" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-sort="ascending">Email</th>
+					<th class="sorting sorting_asc" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-sort="ascending">PhoneNumber</th>
+					<th class="sorting sorting_asc" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-sort="ascending">Workgroups</th>
+				</tr>
+			</thead>
+			<tbody>
+				@for (int i = 0; i < Model.Count; i++)
+				{
+					var cssClass = (i % 2 == 0) ? "even" : "odd";
+					<tr class="@cssClass">
+						<td>@Model[i].Id</td>
+						<td>@Model[i].Name</td>
+						<td>@Model[i].Email</td>
+						<td>@Model[i].PhoneNumber</td>
+						<td>
+							@foreach (var workgroup in Model[i].WorkgroupNames)
+							{
+								<span>@workgroup</span>
+							}
+						</td>
+					</tr>
+				}
+			</tbody>
+		</table>
+	</div>
+</div>

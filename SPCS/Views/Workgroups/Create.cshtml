@@ -1,0 +1,35 @@
+﻿@model SPCS.ViewModel.WorkgroupVM
+
+<h2>Create Workgroup</h2>
+
+<form asp-action="Create" method="post">
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CustomerId">Customer</label>
+        <select asp-for="CustomerId" class="form-control" asp-items="@(new SelectList(ViewBag.Customers, "Id", "Name"))"></select>
+        <span asp-validation-for="CustomerId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ProjectId">Project</label>
+        <select asp-for="ProjectId" class="form-control" asp-items="@(new SelectList(ViewBag.Projects, "Id", "Name"))"></select>
+        <span asp-validation-for="ProjectId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="TeamId"></label>
+        <select asp-for="TeamId" class="form-control" asp-items="@(new SelectList(ViewBag.Teams, "Id", "Name"))"></select>
+        <span asp-validation-for="TeamId" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-3">Create</button>
+</form>
+
+<a asp-action="Index">Back to List</a>

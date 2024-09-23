@@ -59,8 +59,19 @@
                         <div class="bg-success rounded-circle border border-2 border-white position-absolute end-0 bottom-0 p-1"></div>
                     </div>
                     <div class="ms-3">
-                        <h6 class="mb-0">@User.Identity.Name</h6>
-                        <span>Admin</span>
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <h6 class="mb-0">@User?.Identity?.Name</h6>
+                            var roles = string.Join(", ", User.Claims
+                            .Where(c => c.Type == System.Security.Claims.ClaimTypes.Role)
+                            .Select(c => c.Value));
+
+                            <span>@roles</span>
+                        }
+                        else
+                        {
+                            <h6 class="mb-0">Welcome, Guest</h6>
+                        }
                     </div>
                 </div>
                 <div class="navbar-nav w-100">
@@ -70,12 +81,26 @@
                         <a asp-controller="Roles" asp-action="Index" class="nav-item nav-link"><i class="fa fa-th me-2"></i>Roles</a>
                         <a asp-controller="Users" asp-action="Index" class="nav-item nav-link"><i class="fa fa-th me-2"></i>Users</a>
                     }
-                    <a asp-controller="Categories" asp-action="Index" class="nav-item nav-link"><i class="fa fa-th me-2"></i>Workgroup</a>
-                    <a asp-controller="Projects" asp-action="Index" class="nav-item nav-link"><i class="fa fa-th me-2"></i>Projects</a>
-                    <a asp-controller="Categories" asp-action="Index" class="nav-item nav-link"><i class="fa fa-th me-2"></i>Tasks</a>
-                    <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Page("/", new { area = "" })" method="post">
-                        <button type="submit" class="nav-link btn">Click here to Logout</button>
-                    </form>
+
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <a asp-controller="Projects" asp-action="Index" class="nav-item nav-link"><i class="fa fa-th me-2"></i>Projects</a>
+                        <a asp-controller="Students" asp-action="Index" class="nav-item nav-link"><i class="fa fa-th me-2"></i>Students</a>
+                        <a asp-controller="Supervisors" asp-action="Index" class="nav-item nav-link"><i class="fa fa-th me-2"></i>Supervisors</a>
+                        <a asp-controller="Customers" asp-action="Index" class="nav-item nav-link"><i class="fa fa-th me-2"></i>Customers</a>
+                        <a asp-controller="Teams" asp-action="Index" class="nav-item nav-link"><i class="fa fa-th me-2"></i>Teams</a>
+                        <a asp-controller="Workgroups" asp-action="Index" class="nav-item nav-link"><i class="fa fa-th me-2"></i>Workgroups</a>
+
+                        <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Page("/", new { area = "" })" method="post">
+                            <button type="submit" class="nav-link btn">Click here to Logout</button>
+                        </form>
+                    }
+                    else
+                    {
+                        <form class="form-inline" asp-area="Identity" asp-page="/Account/Login" asp-route-returnUrl="@Url.Page("/", new { area = "" })" method="post">
+                            <button type="submit" class="nav-link btn">Click here to Login</button>
+                        </form>
+                    }
                     <!--
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="far fa-file-alt me-2"></i>Pages</a>
@@ -172,12 +197,30 @@
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
                             <img class="rounded-circle me-lg-2" src="img/user.jpg" alt="" style="width: 40px; height: 40px;">
-                            <span class="d-none d-lg-inline-flex">John Doe</span>
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                <span class="d-none d-lg-inline-flex">@User?.Identity?.Name</span>
+                            }
+                            else
+                            {
+                                <span class="d-none d-lg-inline-flex">Guest</span>
+                            }
                         </a>
                         <div class="dropdown-menu dropdown-menu-end bg-light border-0 rounded-0 rounded-bottom m-0">
                             <a href="#" class="dropdown-item">My Profile</a>
                             <a href="#" class="dropdown-item">Settings</a>
-                            <a href="#" class="dropdown-item">Log Out</a>
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Page("/", new { area = "" })" method="post">
+                                    <button type="submit" class="dropdown-item">Logout</button>
+                                </form>
+                            }
+                            else
+                            {
+                                <a asp-area="Identity" asp-page="/Account/Login" asp-route-returnUrl="@Url.Page("/", new { area = "" })" method="post" class="dropdown-item">
+                                    Login
+                                </a>
+                            }
                         </div>
                     </div>
                 </div>

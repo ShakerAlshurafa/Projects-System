@@ -11,18 +11,21 @@
             No Project Found
         </div>
     }
-    @foreach(var project in @Model)
+    else
     {
-        <div class="col-lg-6 col-sm-12">
-            <div class="project-card mx-auto">
-                <div class="image-container">
-                    <img src="/img/Project/projects_card.jpg" alt="Desk with Laptop" />
-                </div>
-                <div class="overlay">
-                    <h2>@project.Name</h2>
-                    <a asp-controller="Projects" asp-action="GetById" asp-route-id="@project.Id" class="btn">Go To Project &#8594;</a>
+        @foreach(var project in @Model)
+        {
+            <div class="col-lg-6 col-sm-12">
+                <div class="project-card mx-auto">
+                    <div class="image-container">
+                        <img src="/img/Project/projects_card.jpg" alt="Desk with Laptop" />
+                    </div>
+                    <div class="overlay">
+                        <h2>@project.Name</h2>
+                        <a asp-controller="Projects" asp-action="GetById" asp-route-id="@project.Id" class="btn">Go To Project &#8594;</a>
+                    </div>
                 </div>
             </div>
-        </div>
+        }
     }
 </div>
